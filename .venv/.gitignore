@@ -1,0 +1,24 @@
+# created by virtualenv automatically
+# Secrets & env
+.env
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# PyCharm
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb  # optionally track notebooks; if you will, remove this line
+
+# OS
+.DS_Store
+Thumbs.db
+
