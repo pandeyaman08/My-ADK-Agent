@@ -1,18 +1,21 @@
-# My ADK Project
+# My ADK Agent
 
-## Overview
-Short summary: what it does, tech stack (Python, ADK, Jupyter, Gradio/Flask if any), how to run.
+This project is a prototype AI agent built using the **Agent Development Kit (ADK)**. It demonstrates how to set up and run a basic agent workflow locally using Python and ADK tools. The agent uses large language models and tool integrations to respond to queries.
+
+## Features
+- Simple ADK agent setup
+- Uses Python & ADK configuration
+- Demonstrates basic agent responses and tools
+
+## Tech Stack
+Python, ADK, Jupyter Notebook
 
 ## Setup
 1. `python -m venv .venv`
-2. `source .venv/bin/activate` or Windows equiv
+2. `source .venv/bin/activate`
 3. `pip install -r requirements.txt`
-4. Create `.env` with `GOOGLE_API_KEY=...`
-5. Run notebook or `python app.py`
+4. Create a `.env` file with required API keys
 
 ## Run
-- Start ADK web UI: `!adk web --port 8000` or `python app.py`
-- Open: `http://localhost:8000`
-
-## Notes
-- `.env` is ignored in git for security.
+- Open and run the Jupyter notebook (`sample.ipynb`)
+- Explore the agent logic interactively
