@@ -1,21 +1,22 @@
 # My ADK Agent
 
-This project is a prototype AI agent built using the **Agent Development Kit (ADK)**. It demonstrates how to set up and run a basic agent workflow locally using Python and ADK tools. The agent uses large language models and tool integrations to respond to queries.
+My ADK Agent is an AI agent prototype built using the Agent Development Kit (ADK).  
+The project demonstrates how to setup and run a basic ADK agent using Python and a sample Jupyter notebook.
 
 ## Features
-- Simple ADK agent setup
-- Uses Python & ADK configuration
-- Demonstrates basic agent responses and tools
+- Setup a simple AI agent using the ADK framework
+- Includes a Jupyter notebook to interact with and test agent logic
+- Demonstrates basic agent operations and configuration
 
 ## Tech Stack
-Python, ADK, Jupyter Notebook
+Python, Agent Development Kit (ADK), Jupyter Notebook
 
 ## Setup
-1. `python -m venv .venv`
-2. `source .venv/bin/activate`
-3. `pip install -r requirements.txt`
-4. Create a `.env` file with required API keys
+1. Create a Python virtual environment  
+   `python -m venv .venv`  
+2. Activate the environment and install dependencies:  
+   `pip install -r requirements.txt`  
+3. Open `sample.ipynb` and run the notebook to experiment with the agent.
 
-## Run
-- Open and run the Jupyter notebook (`sample.ipynb`)
-- Explore the agent logic interactively
+## How to Use
+- Run the notebook to interact with the agent logic and see example outputs.
